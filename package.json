@@ -1,8 +1,20 @@
 {
   "name": "secm-map",
-  "private": true,
   "version": "0.0.0",
+  "private": true,
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "homepage": "https://github.com/warrendsteinacker-max/secm-map#readme",
+  "bugs": {
+    "url": "https://github.com/warrendsteinacker-max/secm-map/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/warrendsteinacker-max/secm-map.git"
+  },
+  "license": "ISC",
+  "author": "",
   "type": "module",
+  "main": "eslint.config.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -10,6 +22,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "lucide-react": "^0.563.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },
