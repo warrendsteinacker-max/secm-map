@@ -553,6 +553,16 @@ const LiteracyMindMap = () => {
                 <strong>Decoding impacts vocabulary acquisition.</strong> Word study and phonics instruction help students decode unfamiliar vocabulary words. When students can apply word analysis skills, they can independently tackle new academic vocabulary, building both their decoding abilities and word knowledge simultaneously.
               </p>
             </div>
+
+            <div style={{...styles.indexCard, background: '#d1fae5', borderLeft: '4px solid #b97010ff'}}>
+              <div style={styles.indexCardHeader}>
+                <div style={{...styles.indexSymbol, background: '#10b981'}}>B</div>
+                <h4 style={styles.indexCardTitle}>Fluency → Comprehension</h4>
+              </div>
+              <p style={styles.indexCardText}>
+                <strong>Fluent reading improves understanding.</strong> According to Tompkins et al., when students read at 100+ words per minute with proper expression and phrasing, they can focus mental energy on making meaning rather than decoding. Research shows fluent readers comprehend significantly better than non-fluent readers.
+              </p>
+            </div>
           </div>
         </div>
 
