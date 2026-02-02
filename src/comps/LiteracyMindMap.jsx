@@ -520,7 +520,7 @@ const LiteracyMindMap = () => {
                 <h4 style={styles.indexCardTitle}>Word Recognition → Fluency</h4>
               </div>
               <p style={styles.indexCardText}>
-                <strong>Automaticity enables fluent reading.</strong> Tompkins et al. state that when students recognize words automatically without conscious decoding effort, they achieve the 95% accuracy needed for fluency, freeing cognitive resources for comprehension.
+                <strong>This automaticity enables fluent reading.</strong> As suggested by Tompkins et al. (2021) on page 136, reading fluency is a form of word recognition. When students can quickly and accurately decode words, they can read with appropriate speed and expression, leading to better overall fluency.
               </p>
             </div>
 
