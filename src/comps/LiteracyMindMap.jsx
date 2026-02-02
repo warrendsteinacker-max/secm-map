@@ -490,7 +490,7 @@ const LiteracyMindMap = () => {
                 </div>
                 <div style={{...styles.definitionBox, border: '2px solid #fcd34d'}}>
                   <p style={{...styles.label, color: '#78350f'}}>Definition:</p>
-                  <p style={styles.text}>A creative, multifaceted process where readers engage with text, draw on background knowledge, and develop understanding. Includes three levels: literal (facts), inferential (connections), and critical (analysis).</p>
+                  <p style={styles.text}>A creative, multifaceted process where readers engage with text, draw on background knowledge, and develop understanding</p>
                 </div>
                 <div style={{...styles.exampleBox, background: '#fffbeb', border: '2px solid #fcd34d'}}>
                   <p style={{...styles.label, color: '#78350f'}}>Classroom Example:</p>
@@ -569,7 +569,7 @@ const LiteracyMindMap = () => {
         <div style={styles.references}>
           <h4 style={styles.refTitle}>References</h4>
           <p style={styles.refText}>
-            Michigan Department of Education. (n.d.). <em>Reading standards: Foundational skills (K–5)</em>.
+            Michigan Department of Education. (n.d.). <em>Reading standards: Foundational skills (K–5)</em>. https://www.michigan.gov/-/media/Project/Websites/mde/Literacy/Content-Standards/ELA_Standards.pdf?rev=0f76588bc2bd48f89165484fa35d2b31
           </p>
           <p style={styles.refText}>
             Tompkins, G. E., Rodgers, E., & Rodgers, A. (2021). <em>Literacy for the 21st century</em> (8th ed.). Pearson Education (US). https://reader.yuzu.com/books/9780135893401
