@@ -229,10 +229,6 @@ const LiteracyMindMap = () => {
       fontSize: '0.875rem',
       color: '#334155'
     },
-    textWhite: {
-      fontSize: '0.75rem',
-      color: 'white'
-    },
     citation: {
       fontSize: '0.75rem',
       fontStyle: 'italic',
@@ -420,33 +416,33 @@ const LiteracyMindMap = () => {
                 </div>
                 <div style={{...styles.exampleBox, background: '#eff6ff', border: '2px solid #93c5fd'}}>
                   <p style={{...styles.label, color: '#1e3a8a'}}>Classroom Example:</p>
-                  <p style={styles.text}>Word sorts with short vowels (CVC patterns)</p>
+                  <p style={styles.text}>Word sorts with short vowels (CVC patterns) and images</p>
                 </div>
                 <div style={{...styles.connectsBox, background: '#2563eb'}}>
                   <p style={{...styles.label, color: 'white'}}>Connects to:</p>
                   <ul style={{ fontSize: '0.75rem', listStyle: 'none', padding: 0, margin: 0 }}>
-                    <li>→ Builds automaticity for fluency (A)</li>
+                    <li>→ Builds fluency (A)</li>
                     <li>→ Supports vocabulary development</li>
                     <li>→ Enables comprehension</li>
                   </ul>
                 </div>
-                <p style={styles.citation}>(Tompkins et al., 2021, p. 136)</p>
+                <p style={styles.citation}>Tompkins et al., 2021, p. 136</p>
               </div>
             </div>
 
             {/* Fluency */}
-            <div style={{...styles.componentBox, left: '1180px', top: '180px'}}>
+            <div style={{...styles.componentBox, left: '1180px', top: '150px'}}>
               <div style={styles.greenBox}>
                 <div style={{...styles.componentHeader, background: '#10b981'}}>
-                  <h3 style={styles.componentTitle}>Reading Fluency</h3>
+                  <h3 style={styles.componentTitle}>Fluency</h3>
                 </div>
                 <div style={{...styles.definitionBox, border: '2px solid #6ee7b7'}}>
                   <p style={{...styles.label, color: '#064e3b'}}>Definition:</p>
-                  <p style={styles.text}>Reading accurately, quickly, with expression (automaticity, speed, prosody)</p>
+                  <p style={styles.text}>Reading or writing accurately, quickly, with expression (automaticity, speed, prosody) or the opposite (inaccurate, slow, without expression)</p>
                 </div>
                 <div style={{...styles.exampleBox, background: '#f0fdf4', border: '2px solid #6ee7b7'}}>
                   <p style={{...styles.label, color: '#064e3b'}}>Classroom Example:</p>
-                  <p style={styles.text}>Paired repeated reading with partner feedback</p>
+                  <p style={styles.text}>Paired repeated reading or writing with partner feedback</p>
                 </div>
                 <div style={{...styles.connectsBox, background: '#059669'}}>
                   <p style={{...styles.label, color: 'white'}}>Connects to:</p>
@@ -456,7 +452,7 @@ const LiteracyMindMap = () => {
                     <li>→ Enhances vocabulary acquisition</li>
                   </ul>
                 </div>
-                <p style={styles.citation}>(Tompkins et al., 2021, p. 136)</p>
+                <p style={styles.citation}>Tompkins et al., 2021, pp. 136-145</p>
               </div>
             </div>
 
@@ -472,17 +468,17 @@ const LiteracyMindMap = () => {
                 </div>
                 <div style={{...styles.exampleBox, background: '#faf5ff', border: '2px solid #c4b5fd'}}>
                   <p style={{...styles.label, color: '#4c1d95'}}>Classroom Example:</p>
-                  <p style={styles.text}>Word webs for new story words</p>
+                  <p style={styles.text}>Word webs and walls for new story words</p>
                 </div>
                 <div style={{...styles.connectsBox, background: '#7c3aed'}}>
                   <p style={{...styles.label, color: 'white'}}>Connects to:</p>
                   <ul style={{ fontSize: '0.75rem', listStyle: 'none', padding: 0, margin: 0 }}>
                     <li>→ Enhanced by word recognition (D)</li>
                     <li>→ Critical for comprehension (C)</li>
-                    <li>→ Supports fluent reading</li>
+                    <li>→ Supports fluent reading and writing</li>
                   </ul>
                 </div>
-                <p style={styles.citation}>(Tompkins et al., 2021, pp. 184-185)</p>
+                <p style={styles.citation}>Tompkins et al., 2021, pp. 184-185</p>
               </div>
             </div>
 
@@ -494,11 +490,11 @@ const LiteracyMindMap = () => {
                 </div>
                 <div style={{...styles.definitionBox, border: '2px solid #fcd34d'}}>
                   <p style={{...styles.label, color: '#78350f'}}>Definition:</p>
-                  <p style={styles.text}>Understanding and making meaning from text - the ultimate reading goal</p>
+                  <p style={styles.text}>A creative, multifaceted process where readers engage with text, draw on background knowledge, and develop understanding. Includes three levels: literal (facts), inferential (connections), and critical (analysis).</p>
                 </div>
                 <div style={{...styles.exampleBox, background: '#fffbeb', border: '2px solid #fcd34d'}}>
                   <p style={{...styles.label, color: '#78350f'}}>Classroom Example:</p>
-                  <p style={styles.text}>Story maps and retelling wheels</p>
+                  <p style={styles.text}>Story maps and retelling wheels to assess literal, inferential, and critical comprehension levels</p>
                 </div>
                 <div style={{...styles.connectsBox, background: '#d97706'}}>
                   <p style={{...styles.label, color: 'white'}}>Connects to:</p>
@@ -508,7 +504,7 @@ const LiteracyMindMap = () => {
                     <li>→ Integrates all components</li>
                   </ul>
                 </div>
-                <p style={styles.citation}>(Michigan Dept. of Ed., n.d., p. 17)</p>
+                <p style={styles.citation}>Tompkins et al., 2021, p. 221</p>
               </div>
             </div>
           </div>
@@ -524,7 +520,7 @@ const LiteracyMindMap = () => {
                 <h4 style={styles.indexCardTitle}>Word Recognition → Fluency</h4>
               </div>
               <p style={styles.indexCardText}>
-                <strong>Automaticity enables fluent reading.</strong> When students recognize words automatically without conscious decoding effort, they achieve the 95% accuracy needed for fluency. Tompkins et al. (2021) explain that readers must "recognize most words automatically" to read fluently, freeing cognitive resources for comprehension (p. 136).
+                <strong>Automaticity enables fluent reading.</strong> Tompkins et al. state that when students recognize words automatically without conscious decoding effort, they achieve the 95% accuracy needed for fluency, freeing cognitive resources for comprehension.
               </p>
             </div>
 
@@ -534,7 +530,7 @@ const LiteracyMindMap = () => {
                 <h4 style={styles.indexCardTitle}>Fluency → Comprehension</h4>
               </div>
               <p style={styles.indexCardText}>
-                <strong>Fluent reading improves understanding.</strong> When students read at 100+ words per minute with proper expression and phrasing, they can focus mental energy on making meaning rather than decoding. Research shows fluent readers comprehend significantly better than non-fluent readers (Tompkins et al., 2021, p. 136).
+                <strong>Fluent reading improves understanding.</strong> According to Tompkins et al., when students read at 100+ words per minute with proper expression and phrasing, they can focus mental energy on making meaning rather than decoding. Research shows fluent readers comprehend significantly better than non-fluent readers.
               </p>
             </div>
 
@@ -544,7 +540,7 @@ const LiteracyMindMap = () => {
                 <h4 style={styles.indexCardTitle}>Comprehension → Vocabulary</h4>
               </div>
               <p style={styles.indexCardText}>
-                <strong>Vocabulary knowledge supports meaning-making.</strong> Understanding Tier 2 academic vocabulary is essential for comprehension across content areas. As Tompkins et al. (2021) emphasize, teaching academic vocabulary "has a powerful impact on learning" because these words appear frequently in texts but less often in oral language (pp. 184-185).
+                <strong>Vocabulary knowledge supports meaning-making.</strong> Tompkins et al. define comprehension as a creative, multifaceted process with three levels: literal comprehension (picking out main ideas and facts), inferential comprehension (reading between the lines to make connections), and critical comprehension (analyzing and evaluating). Understanding Tier 2 academic vocabulary is essential across all comprehension levels because these words appear frequently in texts but less often in oral language.
               </p>
             </div>
 
@@ -583,13 +579,6 @@ const LiteracyMindMap = () => {
 };
 
 export default LiteracyMindMap;
-
-
-
-
-
-
-
 
 
 
