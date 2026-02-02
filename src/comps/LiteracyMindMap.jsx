@@ -540,7 +540,7 @@ const LiteracyMindMap = () => {
                 <h4 style={styles.indexCardTitle}>Comprehension → Vocabulary</h4>
               </div>
               <p style={styles.indexCardText}>
-                <strong>Vocabulary knowledge supports meaning-making.</strong> Tompkins et al. define comprehension as a creative, multifaceted process with three levels: literal comprehension (picking out main ideas and facts), inferential comprehension (reading between the lines to make connections), and critical comprehension (analyzing and evaluating). Understanding Tier 2 academic vocabulary is essential across all comprehension levels because these words appear frequently in texts but less often in oral language.
+                <strong>Vocabulary knowledge supports meaning-making.</strong> Tompkins et al. (2021) on page 221 define comprehension as a creative, multifaceted process related to text. This comprehension applies to vocabulary concepts covered from pages 184-185.
               </p>
             </div>
 
