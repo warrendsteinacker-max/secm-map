@@ -550,7 +550,7 @@ const LiteracyMindMap = () => {
                 <h4 style={styles.indexCardTitle}>Vocabulary → Word Recognition</h4>
               </div>
               <p style={styles.indexCardText}>
-                <strong>Decoding impacts vocabulary acquisition.</strong> Word study and phonics instruction help students decode unfamiliar vocabulary words. When students can apply word analysis skills, they can independently tackle new academic vocabulary, building both their decoding abilities and word knowledge simultaneously.
+                <strong>Decoding impacts vocabulary acquisition.</strong> As suggested by Tompkins et al. (2021) on page 136, reading fluency instruction, a form of work recognition, helps students decode unfamiliar vocabulary words. When students can apply word analysis skills, they can independently tackle new academic vocabulary, building both their decoding abilities and word knowledge simultaneously.
               </p>
             </div>
 
