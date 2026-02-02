@@ -483,7 +483,7 @@ const LiteracyMindMap = () => {
             </div>
 
             {/* Comprehension */}
-            <div style={{...styles.componentBox, left: '1180px', top: '800px'}}>
+            <div style={{...styles.componentBox, left: '1180px', top: '850px'}}>
               <div style={styles.orangeBox}>
                 <div style={{...styles.componentHeader, background: '#f59e0b'}}>
                   <h3 style={styles.componentTitle}>Comprehension</h3>
@@ -530,7 +530,7 @@ const LiteracyMindMap = () => {
                 <h4 style={styles.indexCardTitle}>Fluency → Comprehension</h4>
               </div>
               <p style={styles.indexCardText}>
-                <strong>Fluent reading improves understanding.</strong> According to Tompkins et al., when students read at 100+ words per minute with proper expression and phrasing, they can focus mental energy on making meaning rather than decoding. Research shows fluent readers comprehend significantly better than non-fluent readers.
+                <strong>Fluent reading and writing improves understanding.</strong> According to Tompkins et al., when students read at 100+ words per minute with proper expression and phrasing, they can focus mental energy on making meaning rather than decoding. Research shows fluent readers comprehend significantly better than non-fluent readers.
               </p>
             </div>
 
