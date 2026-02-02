@@ -530,7 +530,7 @@ const LiteracyMindMap = () => {
                 <h4 style={styles.indexCardTitle}>Fluency → Comprehension</h4>
               </div>
               <p style={styles.indexCardText}>
-                <strong>Fluent reading and writing improves understanding.</strong> According to Tompkins et al., when students read at 100+ words per minute with proper expression and phrasing, they can focus mental energy on making meaning rather than decoding. Research shows fluent readers comprehend significantly better than non-fluent readers.
+                <strong>Fluent reading and writing improves understanding.</strong> According to Tompkins et al. (2021) on pages 221 and 136-145, reading and writing is a form of comprehension. This is because given the definition of comprehension on page 221, both types of fluency engage students to think about texts.
               </p>
             </div>
 
