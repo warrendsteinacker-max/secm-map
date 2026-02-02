@@ -556,11 +556,11 @@ const LiteracyMindMap = () => {
 
             <div style={{...styles.indexCard, background: '#d1fae5', borderLeft: '4px solid #b97010ff'}}>
               <div style={styles.indexCardHeader}>
-                <div style={{...styles.indexSymbol, background: '#10b981'}}>B</div>
-                <h4 style={styles.indexCardTitle}>Fluency → Comprehension</h4>
+                <div style={{...styles.indexSymbol, background: '#4e8f79ff'}}>B</div>
+                <h4 style={styles.indexCardTitle}>How all Four Skills Work Together</h4>
               </div>
               <p style={styles.indexCardText}>
-                <strong>Fluent reading improves understanding.</strong> According to Tompkins et al., when students read at 100+ words per minute with proper expression and phrasing, they can focus mental energy on making meaning rather than decoding. Research shows fluent readers comprehend significantly better than non-fluent readers.
+                As shown in the model, as one connection makes another connection, it essentially makes this branching effect that connects all four of them. For example, the overlapping part of vocabulary and word recognition makes a connection, and the blue arrow from word recognition to fluency makes the two on the left side connect to the other two on the right. Essentially, these for components work together to make balanced literacy instruction in K-3.
               </p>
             </div>
           </div>
